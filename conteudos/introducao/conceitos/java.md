@@ -1,5 +1,11 @@
 # Introdução Java
 
+Tópicos abordados:
+
+- [Instalação do Java](##Instalação-do-Java)
+- [Modo de Execução](##Modo-de-Execução)
+- [Convenções de Código](##Convenções-de-Código)
+
 ## Instalação do Java
 
 Para desenvolver utilizando o Java é necessário baixar os pacotes necessários para compilação e execução do mesmo, ou seja, o JDK e o JRE.
@@ -37,3 +43,32 @@ Passos para execução:
         java HelloWorld
 
     Ao executar esse comando a mensagem `Hello World!` aparecerar no console, mostrando que o comando contido no arquivo.
+
+## Convenções de Código
+
+Padrões estabelecidos por um grupo de pessoas responsável por determinar a forma recomendada para desenvolver na linguagem de programação utilizada.
+
+### Nomes
+
+O Java nomenclaturas recomendadas para nomes de classe, métodos e variáveis. O padrão utilizado nos nomes é o CamelCase como mostrada no exemplo a seguir:
+
+- Classes: Em nomes de classe é recomendado começar com a primeira letra maiúscula e o resto da palavra em minúsculo, e se a classe for uma junção de duas palavras, seguir o padrão da primeira letra maiúscula.
+
+    Exemplos:
+
+        - Usuario
+        - UsuarioAssociado
+
+- Método: Em nomes de métodos é recomendado deixar a palavra toda em minúscula e se for duas palavras uma seguida de outra recomenda-se deixar a primeira letra da segunda palavra em maiúsculo.
+
+    Exemplo:
+
+        - comprar
+        - acharUsuario
+
+- Variável: Em nomes de variáveis é recomendado utilizar o mesmo formato de nomeação de um método.
+
+    Exemplo:
+
+        - nome
+        - nomeDoResponsavel
